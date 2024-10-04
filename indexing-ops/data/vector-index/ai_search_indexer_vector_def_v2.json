@@ -1,0 +1,31 @@
+{
+    "name" : "adlsgen2-indexer-redacted",
+    "dataSourceName" : "datasource-name-redacted",
+    "skillsetName": "vector-skillset-redacted",
+    "targetIndexName" : "search-index-name-redacted",
+    "disabled": null,
+    "schedule" : { },
+    "parameters": {
+        "batchSize": null,
+        "maxFailedItems": null,
+        "maxFailedItemsPerBatch": null,
+        "base64EncodeKeys": null,
+        "configuration": {
+            "indexedFileNameExtensions" : ".pdf,.docx",
+            "excludedFileNameExtensions" : ".png,.jpeg",
+            "dataToExtract": "contentAndMetadata",
+            "parsingMode": "default"
+        }
+    },
+    "fieldMappings" : [
+        {
+            "sourceFieldName": "metadata_storage_name",
+            "targetFieldName": "title",
+            "mappingFunction": null
+          }
+     ],
+     "outputFieldMappings": [],
+     "encryptionKey": null
+}
+
+  

@@ -1,0 +1,12 @@
+{
+    "AISearchEndpoint":"",
+    "AISearchAPIKey": "",
+    "StorageAcc": "",
+    "StorageAccConnStr":"",
+    "StorageAccContainer":"",
+    "StorageAccFolder":"",
+    "AOAIResource":"",
+    "AOAIAPIKEY":"",
+    "AOAIDeploymentID":"",
+    "AOAIModelName":""
+}
